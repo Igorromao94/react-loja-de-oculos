@@ -1,0 +1,63 @@
+#Contato{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+
+  padding: 100px 20px;
+  background: #05031b;
+}
+
+.container_inicial_contato{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 20px;
+  line-height: 10px;
+}
+
+.container_contato{
+  text-align: left;
+  padding: 15px;
+}
+
+.linhas_de_contato{
+  display: flex;
+  flex-flow: row nowrap; 
+  align-items: center;
+
+  margin: 0 5px;
+}
+
+.linhas_de_contato img{
+  width: 18px;
+  height: 18px;
+}
+
+.linhas_de_contato p{
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+@media (min-width: 320px) and (max-width:550px) {
+  #Contato{
+    padding: 100px 10px;
+  }
+
+  .container_inicial_contato{
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 551px) and (max-width:768px) {
+  #Contato{
+    padding: 60px 20px;
+  }
+  
+}
+
+@media (min-width:768px) {
+  
+  
+}

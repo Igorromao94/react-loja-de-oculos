@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.limitar_secao{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.sub_titulo{
+text-transform: uppercase;
+font-size: 36px;
+margin: 0;
+}
+
+@media (min-width: 320px) and (max-width:550px) {
+
+  
+}
+
+@media (min-width: 551px) and (max-width:768px) {
+  
+  
+}
+
+@media (min-width:768px) {
+  
+  
+}

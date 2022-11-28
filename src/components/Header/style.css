@@ -1,0 +1,53 @@
+header{
+  padding: 10px 15px ;
+}
+
+.cabecario{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.logo{
+  width: 150px;
+}
+
+.cabecario nav a{
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0 5px;
+  
+}
+
+@media (min-width: 320px) and (max-width:550px) {
+.cabecario{
+  flex-flow: column;
+}
+
+nav{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+
+  border-top: solid 1px #aaadaf;
+}
+
+
+}
+
+@media (min-width: 551px) and (max-width:768px) {
+  
+  
+}
+
+@media (min-width:768px) {
+  
+  
+}
